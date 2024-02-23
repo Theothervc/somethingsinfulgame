@@ -4,9 +4,9 @@ NO NAME --yet
 # CREDS
 Developers:
 -
-theothervC
+theothervc
 
-dandomdude112
+randomdude112
 
 Director:
 -
