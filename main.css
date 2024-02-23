@@ -8,7 +8,7 @@ body {
 
 footer {
     display: flex;
-    background-color: rgb(100,100,100);
+    background-color: rgb(220,220,220);
     padding: 5px, 20px, 5px, 20px;
     justify-content: center;
 }
@@ -24,19 +24,20 @@ footer {
 }
 
 .secondary-links-list a {
-    color: rgb(200,200,200);
+    color: rgb(100,100,100);
     text-decoration: none;
 )
 
 .primary-links-list a,
 .secondary-links-list a {
+    align-items: center;
     transition: color 0.3s;
     transition: text-decoration 0.3s;
 }
 
 .primary-links-list a:hover,
 .secondary-links-list a:hover {
-    color: rgb(255,255,0);
+    color: rgb(255,255,30);
     text-decoration: underline;
 }
 
