@@ -3,7 +3,14 @@
     --mainfont: fantasy, cursive, serif, sans-serif;
 }
 
+header {
+    background-color: rgb(220,220,220);
+}
+
 .game-header {
+    display: flex;
+    justify-content: center;
+    align-items: top;
     padding: 10px;
 }
 
