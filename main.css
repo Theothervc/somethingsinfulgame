@@ -7,6 +7,13 @@
     padding: 10px;
 }
 
+canvas {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    height: 45vh;
+}
+
 footer {
     display: flex;
     background-color: rgb(220,220,220);
