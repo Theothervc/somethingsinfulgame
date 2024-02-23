@@ -1,1 +1,2 @@
-alert("active")
+alert("active");
+document.innerhtml = null;
