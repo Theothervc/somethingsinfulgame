@@ -2,3 +2,13 @@
     display: flexbox;
     justify-content: space-between;
 }
+
+.primary-links-list a {
+    color: grey;
+    text-decoration: none;
+}
+
+.secondary-links-list a {
+    color: lightgrey;
+    text-decoration: none;
+)
