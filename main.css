@@ -17,14 +17,14 @@ header {
 .game-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 10px, 20px, 10px, 20px;
+    margin: 5px;
 }
 
 main {
     margin: 30px;
     display: flex;
-    justify-content: space-around;
 }
 
 canvas {
