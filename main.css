@@ -1,7 +1,6 @@
 * {
     padding: 0px;
     margin: 0px
-    --mainfont: fantasy, cursive, serif, sans-serif;
 }
 
 header {
@@ -40,15 +39,23 @@ footer {
     justify-content: space-around;
 }
 
+.primary-links-list a,
+.secondary-links-list a {
+    font-family: fantasy, cursive, serif, sans-serif;
+    align-items: center;
+    transition: color 0.3s;
+    transition: text-decoration 0.3s;
+}
+
 .primary-links-list a:active,
 .secondary-links-list a:active {
-    color: rgb(255,255,150);
+    color: rgb(255,150,255);
     text-decoration: underline;
 }
 
 .primary-links-list a:hover,
 .secondary-links-list a:hover {
-    color: rgb(255,255,30);
+    color: rgb(255,30,255);
     text-decoration: underline;
 }
 
@@ -61,11 +68,3 @@ footer {
     color: rgb(100,100,100);
     text-decoration: none;
 )
-
-.primary-links-list a,
-.secondary-links-list a {
-    font-family: var(--mainfont);
-    align-items: center;
-    transition: color 0.3s;
-    transition: text-decoration 0.3s;
-}
