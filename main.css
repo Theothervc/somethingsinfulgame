@@ -2,14 +2,18 @@ body {
     padding: 0px;
 }
 
+.game-header {
+    padding: 10px;
+}
+
 footer {
-    display: flexbox;
+    display: flex;
     background-color: light-grey;
-    padding: 20px;
+    padding: 5px, 20px, 5px, 20px;
 }
 
 .flexbox-texthz-list {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
 }
 
