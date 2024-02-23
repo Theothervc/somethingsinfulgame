@@ -9,9 +9,13 @@ header {
 
 .game-header {
     display: flex;
-    justify-content: space-around;
-    align-items: top;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px, 20px, 10px, 20px;
+}
+.game-header h1,
+.game-header h3 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, serif;
 }
 
 main {
@@ -23,25 +27,28 @@ main {
 canvas {
     border: 1px solid black;
     border-radius: 5px;
-    width: 47vw;
-    height: 47vh;
+    width: 50vh;
+    height: 50vh;
 }
 
 footer {
     display: flex;
     background-color: rgb(220,220,220);
-    padding: 5px, 20px, 5px, 20px;
+    padding: 10px
     justify-content: center;
+    flex-direction: column;
 }
 
 .flexbox-texthz-list {
     display: flex;
+    padding: 5px;
+    gap: 5px;
     justify-content: space-around;
 }
 
 .primary-links-list a,
 .secondary-links-list a {
-    font-family: fantasy, cursive, serif, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, serif;
     align-items: center;
     transition: color 0.3s;
     transition: text-decoration 0.3s;
