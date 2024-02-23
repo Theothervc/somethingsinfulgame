@@ -1,1 +1,4 @@
-
+.flexbox-texthz-list {
+    display: flexbox;
+    justify-content: space-between;
+}
