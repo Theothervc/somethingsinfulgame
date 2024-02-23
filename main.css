@@ -8,7 +8,7 @@ body {
 
 footer {
     display: flex;
-    background-color: light-grey;
+    background-color: rgb(100,100,100);
     padding: 5px, 20px, 5px, 20px;
 }
 
@@ -18,12 +18,12 @@ footer {
 }
 
 .primary-links-list a {
-    color: black;
+    color: rgb(0,0,0);
     text-decoration: none;
 }
 
 .secondary-links-list a {
-    color: grey;
+    color: rgb(200,200,200);
     text-decoration: none;
 )
 
@@ -35,12 +35,12 @@ footer {
 
 .primary-links-list a:hover,
 .secondary-links-list a:hover {
-    color: grape;
+    color: rgb(255,255,0);
     text-decoration: underline;
 }
 
 .primary-links-list a:active,
 .secondary-links-list a:active {
-    color: lavander;
+    color: rgb(255,255,150);
     text-decoration: underline;
 }
