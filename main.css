@@ -1,5 +1,6 @@
 body {
     padding: 0px;
+    --mainfont: fantasy, cursive, serif, sans-serif;
 }
 
 .game-header {
@@ -30,6 +31,7 @@ footer {
 
 .primary-links-list a,
 .secondary-links-list a {
+    font-family: var(--mainfont);
     align-items: center;
     transition: color 0.3s;
     transition: text-decoration 0.3s;
