@@ -1,6 +1,6 @@
 * {
     padding: 0px;
-    margin: 0px
+    margin: 0px;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 main {
-    margin: 20px;
+    margin: 30px;
     display: flex;
     justify-contet: space-around;
 }
