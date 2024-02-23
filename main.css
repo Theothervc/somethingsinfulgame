@@ -4,6 +4,12 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive, serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 header {
     background-color: rgb(220,220,220);
 }
