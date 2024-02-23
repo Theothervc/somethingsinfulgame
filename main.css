@@ -12,3 +12,21 @@
     color: lightgrey;
     text-decoration: none;
 )
+
+.primary-links-list a,
+.secondary-links-list a {
+    transition: color 0.3s;
+    transition: text-decoration 0.3s;
+}
+
+.primary-links-list a:hover,
+.secondary-links-list a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.primary-links-list a:active,
+.secondary-links-list a:active {
+    color: lightpurple;
+    text-decoration: underline;
+}
