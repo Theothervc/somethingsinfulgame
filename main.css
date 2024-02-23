@@ -1,3 +1,13 @@
+body {
+    padding: 0px;
+}
+
+footer {
+    display: flexbox;
+    background-color: light-grey;
+    padding: 20px;
+}
+
 .flexbox-texthz-list {
     display: flexbox;
     justify-content: space-between;
