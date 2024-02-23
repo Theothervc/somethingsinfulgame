@@ -1,5 +1,5 @@
 .flexbox-texthz-list {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
 }
 
