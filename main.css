@@ -1,77 +1,102 @@
+:root {
+	--ptextcolor: white;
+	--stextcolor: grey;
+	--textchangecolor: green;
+	--backgroundcolor: rgb(10, 10, 20);
+	--sbackgroundcolor: rgb(20, 20, 40);
+}
+
 * {
-    padding: 0px;
-    margin: 0px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive, serif;
+    font-family: "Comic sans MS", "Comic sans", cursive, serif;
+}
+
+p, h1, h3{
+	margin: 0px;
+}
+
+#theme-switch,
+#game-grandtext,
+#game-minortext {
+	color: var(--ptextcolor);
 }
 
 body {
+	background-color: var(--backgroundcolor);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+	margin: 0px;
 }
 
 header {
-    background-color: rgb(220,220,220);
+	display: flex;
+	justify-content: space-around;
+    background-color: var(--sbackgroundcolor);
+	padding: 10px;
+	justify-self: start;
 }
 
-.game-header {
+#game-header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px, 20px, 10px, 20px;
-    margin: 5px;
+	align-items: center;
 }
 
 main {
-    margin: 30px;
+    margin: 5vh;
     display: flex;
+	align-self: center;
 }
 
 canvas {
-    border: 1px solid black;
+    border: 1px solid var(--ptextcolor);
     border-radius: 5px;
-    width: 70vh;
+    width: 80vh;
     height: 70vh;
 }
 
 footer {
+	position: fixed; 
+	bottom: 0; 
+	width: 100vw;
     display: flex;
-    background-color: rgb(220,220,220);
+    background-color: var(--sbackgroundcolor);
     padding: 10px;
     justify-content: center;
     flex-direction: column;
+	justify-self: end;
 }
 
 .flexbox-texthz-list {
     display: flex;
+	align-items: center;
+	justify-content: center;
     padding: 5px;
-    gap: 8px;
+    gap: 1vw;
+}
+.flexbox-texthz-list p {
+	color: var(--ptextcolor);
 }
 
-.primary-links-list a:active,
-.secondary-links-list a:active {
-    color: rgb(255,150,255);
-    text-decoration: underline;
-}
-
-.primary-links-list a:hover,
-.secondary-links-list a:hover {
-    color: rgb(255,30,255);
-    text-decoration: underline;
+.primary-links-list {
+	margin: 10px;
 }
 
 .primary-links-list a,
 .secondary-links-list a {
-    align-items: center;
     text-decoration: none;
-    transition: color 0.5s linear;
-    transition: text-decoration 0.5s linear;
+	transition: color 0.2s;
+}
+
+.primary-links-list a:hover,
+.secondary-links-list a:hover {
+    color: var(--textchangecolor);
+    text-decoration: underline;
 }
 
 .primary-links-list a {
-    color: rgb(0,0,0);
+    color: var(--ptextcolor);
 }
 
 .secondary-links-list a {
-    color: rgb(100,100,100);
+    color: var(--stextcolor);
 )
