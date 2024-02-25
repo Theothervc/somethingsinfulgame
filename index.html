@@ -3,32 +3,6 @@
     <title>Something Sinful: Web Game</title>
     <meta name='description' content='A online game made with github pages for an upcoming animated short film by starwatchstudios on youtube'>
     <link rel='stylesheet' type='text/css' href='main.css'>
-    <script src="app.js"></script>
-	<script>
-		var root = document.querySelector(":root");
-		var rootStyles = getComputedStyle(root);
-
-		var darkMode = true;
-		/** Might improve the way to switch themes */
-		function switchTheme(darkMode) {
-			if darkMode {
-				root.style.setProperty("--ptextcolor", "black")
-				root.style.setProperty("--stextcolor", "grey")
-				root.style.setProperty("--textcolorchange", "purple")
-				root.style.setProperty("--backgroundcolor", "white")
-				root.style.setProperty("--sbackgroundcolor", "lightgrey")
-				darkMode = false;
-			}
-			else {
-				root.style.setProperty("--ptextcolor", "white")
-				root.style.setProperty("--stextcolor", "lightgrey")
-				root.style.setProperty("--textcolorchange", "green")
-				root.style.setProperty("--backgroundcolor", "rgb(10, 10, 20)")
-				root.style.setProperty("--sbackgroundcolor", "rgb(20, 20, 40)")
-				darkMode = false;
-			}
-		};
-	</script>
   </head>
   <body>
     <header>
@@ -36,9 +10,6 @@
         <h1 id='game-grandtext'>SOMETHING SINFUL:</h1>
         <h3 id='game-minortext'>WEBGAME</h3>
       </div>
-	  <div>
-		<h2 id='theme-switch' onclick="switchTheme(darkMode)">DARK MODE</h2>
-	  </div>
     </header>
     <main>
       <canvas id='game'></canvas>
